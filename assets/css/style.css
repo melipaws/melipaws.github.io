@@ -3,6 +3,10 @@ body * {
   color: white;
 }
 
+.site {
+  background: black;
+}
+
 @media screen and (min-width: 860px) {
   .navbar {
     padding: 5vw;
@@ -13,9 +17,9 @@ body * {
 }
 
 .navbar .navbar-nav .nav-link {
-    color: white;
+  color: white;
 }
 
-.navbar .navbar-toggler .navbar-toggler-icon {
-  color: white;
+.bar {
+  background: #0dcaf0;
 }
