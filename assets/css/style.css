@@ -1,11 +1,7 @@
-body {
-  background: black;
-}
-
-.logo {
+body * {
+  text-align: center;
   color: white;
 }
-
 
 @media screen and (min-width: 860px) {
   .navbar {
@@ -18,4 +14,8 @@ body {
 
 .navbar .navbar-nav .nav-link {
     color: white;
+}
+
+.navbar .navbar-toggler .navbar-toggler-icon {
+  color: white;
 }
