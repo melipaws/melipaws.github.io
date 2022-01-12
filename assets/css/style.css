@@ -1,0 +1,21 @@
+body {
+  background: black;
+}
+
+.logo {
+  color: white;
+}
+
+
+@media screen and (min-width: 860px) {
+  .navbar {
+    padding: 5vw;
+  }
+  .logo {
+    margin: auto;
+  }
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+}
