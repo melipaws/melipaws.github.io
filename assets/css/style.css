@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body * {
   color: white;
 }
@@ -5,6 +9,8 @@ body * {
 .site {
   background: black;
 }
+
+/*organización de navbar en desktop*/
 
 @media screen and (min-width: 860px) {
   .navbar {
@@ -58,9 +64,38 @@ body * {
   background: #0dcaf0;
 }
 
-
 .bt {
-  text-align: center;
   font-size: 140%;
   vertical-align: middle;
+}
+
+/*agrupar el grupo de íconos a la derecha*/
+
+.icong {
+  float: right;
+}
+
+/*padding exclusivo de browser, ya que hay más espacio*/
+
+@media screen and (min-width: 860px) {
+  .foot {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+}
+
+/* esconder  el quienes somos en mobil, agregar un poco de margen al inferior de las tarjetas*/
+@media screen and (max-width: 860px) {
+  .about {
+    visibility: hidden;
+    clear: both;
+    width: 0;
+    display: none;
+  }
+  .cd {
+    padding-bottom: 10vw;
+  }
+  .foot {
+    padding: 3vw;
+  }
 }
